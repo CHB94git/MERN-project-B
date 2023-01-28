@@ -10,7 +10,6 @@ import {
 
 import checkAuth from '../middleware/authMiddleware.js'
 
-
 const router = Router()
 
 router

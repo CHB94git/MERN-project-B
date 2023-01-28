@@ -25,7 +25,7 @@ const emailOlvidePassword = async datos => {
             <a href="${process.env.FRONTEND_URL}/olvide-password/${token}"> Restablecer contraseña </a> </p>
         
 
-            <p> Sí tu no creaste está cuenta, puedes ignorar este mensaje </p>
+            <p> Sí tu no creaste esta cuenta, puedes ignorar este mensaje </p>
         `
     })
 

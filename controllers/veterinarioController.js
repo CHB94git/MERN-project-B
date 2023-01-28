@@ -1,11 +1,11 @@
-import Veterinario from "../models/Veterinario.js";
+import Veterinario from '../models/Veterinario.js';
 
 import {
     emailOlvidePassword,
     emailRegistro,
     generarID,
     generarJWT
-} from '../helpers/index.js'
+} from '../helpers/index.js';
 
 const registrar = async (req, res) => {
     const { email, nombre } = req.body;
@@ -39,7 +39,6 @@ const registrar = async (req, res) => {
 
 const perfil = (req, res) => {
     const { veterinario } = req
-
     res.json(veterinario)
 }
 
@@ -232,4 +231,5 @@ export {
     nuevoPassword,
     updateProfile,
     updatePassword
-}
+};
+
